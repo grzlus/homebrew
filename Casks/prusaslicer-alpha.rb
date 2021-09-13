@@ -18,6 +18,8 @@ cask "prusaslicer-alpha" do
 
   app "PrusaSlicer.app"
 
+  conflicts_with cask: 'prusaslicer'
+
   zap trash: [
     "~/Library/Application Support/PrusaSlicer",
     "~/Library/Preferences/com.prusa3d.slic3r",
