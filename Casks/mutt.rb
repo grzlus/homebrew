@@ -1,4 +1,4 @@
-class Munt < Formula
+cask "mutt" do
   desc "Roland MT-32 emulator library and MIDI conversion tool"
   homepage "https://github.com/munt/munt"
   url "https://github.com/munt/munt/archive/libmt32emu_2_4_0.tar.gz"
